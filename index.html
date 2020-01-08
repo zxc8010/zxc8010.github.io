@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <!--
 	Paradigm Shift by HTML5 UP
 	html5up.net | @ajlkn
@@ -23,67 +23,112 @@
 						<header>
 							<h1>PortPolio</h1>  <!-- 제목 -->
 							<p>데이터 분석가를 꿈꾸는 '염재영'의 포트폴리오</p> <!-- 부제 -->
-							<br><h2> 개요 </h2>
+							<br><h3> 개요 </h3>
+							<br><strong>- 프로젝트</strong>
+							<br><a href="#yangsan"> 아동급식카드 서비스 개선 </a>
+							<br><a href="#wonsangi"> 원산지 위반 업체 추천 시스템 개발 </a>
+							<br><a href="#newcity"> 3기 신도시 여론분석 </a>
+							<br><a href="#lime"> LIME을 활용한 CNN 결과 해석 </a>
+							<br><strong>- 공모전</strong>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
 						</header>
 						<div class="content">
-							<!-- 첫번쨰 사진 -->
-							<span class="image fill" data-position="center"><img src="images/portpolio/TEST.jpg" style=max-wdith:100%;height:auto;object-fit: cover; alt="" /></span>
+
+						<!--프로젝트1-->
+							<span class="image fill" data-position="center">
+								<img src="images/portpolio/profile.jpg" style=max-wdith:100%;height:auto;object-fit: contain; alt="" /></span>
 						</div>
 					</section>
 
 				<!-- Section -->
-					<section class="intro">
-						<header>
-							<h2>프로젝트1. <br> 아동급식카드 서비스 개선 </br></h2>
-						</header>
-						<div class="content">
-							
-							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
-						</div>
-					</section>
+								<section>
+									<header>
+										<h2><a id="yangsan"><프로젝트1. <br> 아동급식카드 서비스 개선</h2></a>
+										<h3><프로젝트 개요>
+										<br><h5>'2019 빅데이터 청년인재'의 팀프로젝트로 시작한 프로젝트로써, 결식우려아동의 영양불균형 문제 해소와 데이터에 기반한 서비스 개선사항 파악 및 제안을 위해 진행함. </h5></h3>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Feugiat consequat tempus ultrices</h2>
-						</header>
-						<div class="content">
-							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
-							<ul class="feature-icons">
-								<li class="icon solid fa-laptop">Consequat tempus</li>
-								<li class="icon solid fa-bolt">Etiam adipiscing</li>
-								<li class="icon solid fa-signal">Libero nullam</li>
-								<li class="icon solid fa-cog">Blandit condimentum</li>
-								<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-								<li class="icon solid fa-code">Nibh amet venenatis</li>
-							</ul>
-							<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-						</div>
-					</section>
+										<br><h3><제공받은 자료>*
+										<br><h5>결식우려아동 인적사항 <br> 아동급식카드 만족도 설문조사 <br> 아동급식카드 거래내역(64만건)
+										<br><h6><font color=gray>*데이터 제안서 제출 후, 양산시 아동보육과와 미팅을 거쳐
+										<br>보안각서를 작성한 후에 데이터를 받음.</font></h6></h3>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Ultrices erat magna sed condimentum</h2>
-						</header>
-						<div class="content">
-							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+
+										<br><h3><수집자료>**
+										<br><h5>편의점 품목 사진 및 영양 데이터<br> 양산시 아동급식카드 가맹점 현황 <br> 양산시 전체 마트 현황(마트명, 주소, 연락처)
+										<br><h6><font color=gray>**파이썬으로 크롤러 제작 후,
+										<br>데이터 수집.</font></h6></h3>
+
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/portpolio/yangsan1.jpg" class="landscape"><img src="images/portpolio/yangsan1.jpg" style=max-wdith:100%;height:auto;object-fit: contain; alt="" /></a>
+
+										</div>
+									</div>
+								</section>
+
+
+								<section>
+									<header>
+										<h3><프로젝트 설명> <br> - 최적 가맹 마트 추천 </h3>	
+										<h5> 거래내역 데이터를 통해,
+										<br> 가맹점 수가 가장 적은 마트에서 높은 이용 빈도와 압도적인 사용금액이 나타나는 것을 확인함.<br><br>
+										<br> 또한, 설문조사의 서술문항을 토픽모델링 하여 품목과 가맹점 확장에 대한 불만사항을 확인함.<br><br>
+										<br><font color=blue> >> 품목이 다양한 가맹점 마트가 필요하다고 결론 <br/></font></h5>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/portpolio/yangsan2.jpg" class="landscape"><img src="images/portpolio/yangsan2.jpg" style=max-wdith:100%;height:auto;object-fit:contain; alt="" /></a>
+											<a href="images/portpolio/yangsan3.jpg" class="landscape"><img src="images/portpolio/yangsan3.jpg" style=max-wdith:100%;height:auto;object-fit: cover; alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+
+								<section>
+									<header>
+										<h3> - 어플리케이션 개발(시연) </h3>
+										<h5> 토픽모델링의 결과로, <br>잔액조회 및 가맹점 확인의 불편을 확인함.<br><br>
+										<br> 편의점의 이용빈도가 가장 높았고, 
+										<br>편의점에서 끼니를 해결하는 식습관이 영양불균형을 초래할 수 있다는
+										연구논문을 확인함.<br><br>
+										<br><font color=blue> >> 가맹점 위치 확인 및 편의점 품목 추천을 위한 어플리케이션 개발 필요. </font> </h5>
+										<a href=#top>처음 화면으로</a>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/portpolio/yangsan4.jpg" class="landscape"><img src="images/portpolio/yangsan4.jpg" style=max-wdith:100%;height:auto;object-fit: contain; alt="" /></a>
+										</div>
+									</div>
+								</section>
+											
 
 							<!-- Section -->
 								<section>
 									<header>
-										<h3>Erat aliquam</h3>
-										<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
+										<h2><a id="wonsangi">프로젝트2. <br> 원산지 위반 업체<br> 추천시스템 개발</h2></a>
+										<h3><프로젝트 개요>
+										<br><h5>'2019 빅데이터 청년인재'의 팀프로젝트로 시작한 프로젝트로써, 결식우려아동의 영양불균형 문제 해소와 데이터에 기반한 서비스 개선사항 파악 및 제안을 위해 진행함. </h5></h3>
+
+										<br><h3><제공받은 자료>*
+										<br><h5>결식우려아동 인적사항 <br> 아동급식카드 만족도 설문조사 <br> 아동급식카드 거래내역(64만건)
+										<br><h6><font color=gray>*데이터 제안서 제출 후, 양산시 아동보육과와 미팅을 거쳐
+										<br>보안각서를 작성한 후에 데이터를 받음.</font></h6></h3>
+
+
+										<br><h3><수집자료>**
+										<br><h5>편의점 품목 사진 및 영양 데이터<br> 양산시 아동급식카드 가맹점 현황 <br> 양산시 전체 마트 현황(마트명, 주소, 연락처)
+										<br><h6><font color=gray>**파이썬으로 크롤러 제작 후,
+										<br>데이터 수집.</font></h6></h3>
+										<a href=#top>처음 화면으로</a>
+
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+											<a href="images/portpolio/yangsan1.jpg" class="landscape"><img src="images/portpolio/yangsan1.jpg" style=max-wdith:100%;height:auto;object-fit: contain; alt="" /></a>
+
 										</div>
 									</div>
 								</section>
@@ -91,49 +136,56 @@
 							<!-- Section -->
 								<section>
 									<header>
-										<h3>Nisl consequat</h3>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p>
+										<h2><a id="newcity">프로젝트3. <br> 3기 신도시<br> 여론분석</h2></a>
+										<h3><프로젝트 개요>
+										<br><h5>'2019 빅데이터 청년인재'의 팀프로젝트로 시작한 프로젝트로써, 결식우려아동의 영양불균형 문제 해소와 데이터에 기반한 서비스 개선사항 파악 및 제안을 위해 진행함. </h5></h3>
+
+										<br><h3><제공받은 자료>*
+										<br><h5>결식우려아동 인적사항 <br> 아동급식카드 만족도 설문조사 <br> 아동급식카드 거래내역(64만건)
+										<br><h6><font color=gray>*데이터 제안서 제출 후, 양산시 아동보육과와 미팅을 거쳐
+										<br>보안각서를 작성한 후에 데이터를 받음.</font></h6></h3>
+
+
+										<br><h3><수집자료>**
+										<br><h5>편의점 품목 사진 및 영양 데이터<br> 양산시 아동급식카드 가맹점 현황 <br> 양산시 전체 마트 현황(마트명, 주소, 연락처)
+										<br><h6><font color=gray>**파이썬으로 크롤러 제작 후,
+										<br>데이터 수집.</font></h6></h3>
+										<a href=#top>처음 화면으로</a>
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+											<a href="images/portpolio/yangsan1.jpg" class="landscape"><img src="images/portpolio/yangsan1.jpg" style=max-wdith:100%;height:auto;object-fit: contain; alt="" /></a>
+
 										</div>
 									</div>
 								</section>
 
-							<!-- Section -->
+														<!-- Section -->
 								<section>
 									<header>
-										<h3>Lorem gravida</h3>
-										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
+										<h2><a id="lime">프로젝트4. <br> LIME을 활용한<br> CNN 결과 해석</h2></a>
+										<h3><프로젝트 개요>
+										<br><h5>'2019 빅데이터 청년인재'의 팀프로젝트로 시작한 프로젝트로써, 결식우려아동의 영양불균형 문제 해소와 데이터에 기반한 서비스 개선사항 파악 및 제안을 위해 진행함. </h5></h3>
+
+										<br><h3><제공받은 자료>*
+										<br><h5>결식우려아동 인적사항 <br> 아동급식카드 만족도 설문조사 <br> 아동급식카드 거래내역(64만건)
+										<br><h6><font color=gray>*데이터 제안서 제출 후, 양산시 아동보육과와 미팅을 거쳐
+										<br>보안각서를 작성한 후에 데이터를 받음.</font></h6></h3>
+
+
+										<br><h3><수집자료>**
+										<br><h5>편의점 품목 사진 및 영양 데이터<br> 양산시 아동급식카드 가맹점 현황 <br> 양산시 전체 마트 현황(마트명, 주소, 연락처)
+										<br><h6><font color=gray>**파이썬으로 크롤러 제작 후,
+										<br>데이터 수집.</font></h6></h3>
+										<a href=#top>처음 화면으로</a>
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
+											<a href="images/portpolio/yangsan1.jpg" class="landscape"><img src="images/portpolio/yangsan1.jpg" style=max-wdith:100%;height:auto;object-fit: contain; alt="" /></a>
+
 										</div>
 									</div>
 								</section>
-
-						</div>
-					</section>
-
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Duis sed adpiscing veroeros amet</h2>
-						</header>
-						<div class="content">
-							<p><strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
-							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
-								<li><a href="#" class="button large">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
 
 				<!-- Elements -->
 				<!--
